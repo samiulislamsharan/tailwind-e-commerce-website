@@ -635,6 +635,27 @@ body {
   margin-bottom: 190px;
 }
 
+.my-\[190\] {
+  margin-top: 190;
+  margin-bottom: 190;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .block {
   display: block;
 }
@@ -681,6 +702,34 @@ body {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[204px\] {
+  width: 204px;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[204\] {
+  width: 204;
+}
+
+.w-\[100\] {
+  width: 100;
+}
+
+.w-\[200\] {
+  width: 200;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .-translate-x-full {
@@ -921,6 +970,11 @@ body {
   line-height: 2rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-black {
   font-weight: 900;
 }
@@ -937,8 +991,40 @@ body {
   line-height: 125%;
 }
 
+.leading-9 {
+  line-height: 2.25rem;
+}
+
+.leading-\[130\%\] {
+  line-height: 130%;
+}
+
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[130\] {
+  line-height: 130;
+}
+
 .tracking-\[0\.22px\] {
   letter-spacing: 0.22px;
+}
+
+.tracking-\[3px\] {
+  letter-spacing: 3px;
+}
+
+.tracking-\[\] {
+  letter-spacing: ;
+}
+
+.tracking-\[3\] {
+  letter-spacing: 3;
+}
+
+.tracking-\[3pc\] {
+  letter-spacing: 3pc;
 }
 
 .text-black {
@@ -972,6 +1058,11 @@ body {
 .text-\[\#7F7F7F\] {
   --tw-text-opacity: 1;
   color: rgb(127 127 127 / var(--tw-text-opacity));
+}
+
+.text-\[\#7C7C7C\] {
+  --tw-text-opacity: 1;
+  color: rgb(124 124 124 / var(--tw-text-opacity));
 }
 
 .drop-shadow-2xl {
@@ -1099,12 +1190,20 @@ body {
     flex-direction: row;
   }
 
+  .md\:items-start {
+    align-items: flex-start;
+  }
+
   .md\:items-center {
     align-items: center;
   }
 
   .md\:justify-between {
     justify-content: space-between;
+  }
+
+  .md\:justify-evenly {
+    justify-content: space-evenly;
   }
 
   .md\:px-20 {
@@ -1139,5 +1238,17 @@ body {
 
   .md\:leading-\[125\%\] {
     line-height: 125%;
+  }
+
+  .md\:leading-\[150\%\] {
+    line-height: 150%;
+  }
+
+  .md\:leading-\[2\] {
+    line-height: 2;
+  }
+
+  .md\:leading-\[150\] {
+    line-height: 150;
   }
 }
