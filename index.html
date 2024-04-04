@@ -6,7 +6,6 @@
     <link href="./css/style.css" rel="stylesheet">
     <link rel="icon" href="./assets/tailwind-css.svg" type="image/x-icon" />
 
-    <title>Tailwind CSS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
@@ -16,9 +15,6 @@
 </head>
 
 <body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
     <!-- nav`r -->
     <nav class="w-full text-black uppercase bg-white tracking-[0.22px] md:text-[22px] p-11 ">
         <div class="container flex flex-row items-center justify-between mx-auto">
@@ -88,6 +84,62 @@
         <div class="w-[120px]"><img src="./assets/images/brands/amazon.png" alt="amazon brand" srcset=""></div>
     </section>
     <!-- brand section end -->
+
+    <!-- new arrivals section -->
+    <section class="container flex flex-col items-start mx-auto gap-28 px-[10px]">
+        <div class="relative text-black">
+            <h2
+                class="text-4xl font-black after:content-oval after:absolute after:left-[50%] after:-bottom-2.5 after:-z-10 md:text-5xl">
+                NEW
+                ARRIVALS
+            </h2>
+        </div>
+        <div class="grid grid-flow-row grid-rows-1 gap-24 md:grid-flow-col md:grid-cols-3">
+            <!-- cards -->
+            <div class="flex flex-col w-full gap-7">
+                <img class="w-full h-[700px] object-cover object-[75%] rounded-[20px]" src="./assets/images/hoddiee.png"
+                    alt="" />
+                <div class="flex flex-row items-center justify-between">
+                    <div class="flex flex-col">
+                        <h3 class="text-[32px] font-medium">Hoodies & Sweatshirt</h3>
+                        <a class="text-2xl text-gray-600" href="#">Explore Now!</a>
+                    </div>
+                    <div>
+                        <img src="./assets/images/arrow.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+            <!-- cards -->
+            <div class="flex flex-col w-full gap-7">
+                <img class="w-full h-[700px] object-cover object-[75%] rounded-[20px]" src="./assets/images/hoddiee.png"
+                    alt="" />
+                <div class="flex flex-row items-center justify-between">
+                    <div class="flex flex-col">
+                        <h3 class="text-[32px] font-medium">Hoodies & Sweatshirt</h3>
+                        <a class="text-2xl text-gray-600" href="#">Explore Now!</a>
+                    </div>
+                    <div>
+                        <img src="./assets/images/arrow.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+            <!-- cards -->
+            <div class="flex flex-col w-full gap-7">
+                <img class="w-full h-[700px] object-cover object-[75%] rounded-[20px]" src="./assets/images/hoddiee.png"
+                    alt="" />
+                <div class="flex flex-row items-center justify-between">
+                    <div class="flex flex-col">
+                        <h3 class="text-[32px] font-medium">Hoodies & Sweatshirt</h3>
+                        <a class="text-2xl text-gray-600" href="#">Explore Now!</a>
+                    </div>
+                    <div>
+                        <img src="./assets/images/arrow.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- new arrivals section end -->
     <script>
         const hamburger = document.getElementById('hamburger');
         const mobileNav = document.getElementById('mobile-nav');
