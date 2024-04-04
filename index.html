@@ -88,5 +88,13 @@
         <div class="w-[120px]"><img src="./assets/images/brands/amazon.png" alt="amazon brand" srcset=""></div>
     </section>
     <!-- brand section end -->
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const mobileNav = document.getElementById('mobile-nav');
+
+        hamburger.addEventListener('click', () => {
+            mobileNav.classList.toggle('-translate-x-full');
+        });
+    </script>
 </body>
 </html>
